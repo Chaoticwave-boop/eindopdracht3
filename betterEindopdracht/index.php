@@ -23,6 +23,9 @@
       else if(array_key_exists('button2', $_POST)) {
           include("pages/onderwerp2.php");
       }
+      else if(array_key_exists('button3', $_POST)) {
+        include("pages/onderwerp3.php");
+    }
     ?>
   
 	<!-- laad hier via php je footer in (vanuit je includes map)-->

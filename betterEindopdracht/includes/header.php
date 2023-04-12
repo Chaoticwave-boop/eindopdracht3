@@ -11,13 +11,16 @@ om te bepalen welke inhoud er ingeladen moet worden in je html
 
             <form method="post">
                 <input type="submit" name="button1" id="headerbutton"
-                    class="button" value="Button1" />
+                    class="button" value="Monster Hunter" />
                 
                 <input type="submit" name="button2" id="headerbutton"
-                    class="button" value="Button2" />
+                    class="button" value="Elden Ring" />
+
+                <input type="submit" name="button3" id="headerbutton"
+                    class="button" value="mario64" />
             </form>
 
-            <img  src="images/php.jpg">
+            <img  src="images/logo.jpg" alt="controller" >
         </div>
     </header>
 
