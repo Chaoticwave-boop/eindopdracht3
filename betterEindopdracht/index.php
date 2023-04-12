@@ -17,15 +17,15 @@
 
 	<!-- laad hier via php de juiste contentpagina in (vanuit de pages map) in. Welke geselecteerd moet worden kun je uit de URL halen (URL_Params).-->
   <?php
-      if(array_key_exists('button1', $_POST)) {
+      if(array_key_exists("name", $_GET ) && $_GET["name"] == "monsterhunter") {
           include("pages/onderwerp1.php");
       }
-      else if(array_key_exists('button2', $_POST)) {
+      else if(array_key_exists("name", $_GET ) && $_GET["name"] == "eldenring") {
           include("pages/onderwerp2.php");
       }
-      else if(array_key_exists('button3', $_POST)) {
+      else if(array_key_exists("name", $_GET ) && $_GET["name"] == "mario64") {
         include("pages/onderwerp3.php");
-    }
+      }
     ?>
   
 	<!-- laad hier via php je footer in (vanuit je includes map)-->
